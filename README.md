@@ -1,16 +1,57 @@
-# React + Vite
+# 📚 Book Shop CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple full-stack **Create, Read, Update, Delete (CRUD)** application built with React, Node.js, Express, and MySQL. This app allows users to manage a book inventory seamlessly.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+- **Frontend (Netlify):** [Paste your Netlify Link Here]
+- **Backend (Vercel):** [Paste your Vercel Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## React Compiler
+**Frontend:**
+- React.js (Vite)
+- Tailwind CSS
+- React Router 
+- Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Backend:**
+- Node.js
+- Express.js
+- MySQL2
+- Cors
 
-## Expanding the ESLint configuration
+**Database:**
+- MySQL (Hosted on Aiven Cloud)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Deployment:**
+- Frontend: Netlify
+- Backend: Vercel
+
+---
+
+## ⚙️ Run Locally
+
+Follow these steps to run the project on your local machine.
+
+# Install dependencies
+npm install
+
+# Create a .env file and add your database credentials
+DB_HOST=your-aiven-host
+DB_USER=your-aiven-user
+DB_PASSWORD=your-aiven-password
+DB_NAME=defaultdb
+DB_PORT=your-aiven-port
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+# Install dependencies
+npm install
+
+# Create a .env file
+VITE_API_URL=http://localhost:5000
+
+# Start the React app
+npm run dev
